@@ -39,4 +39,4 @@ def hello():
 #    return ",".join(result)
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000, debug=True,use_reloader=True)  # Launch built-in web server and run this Flask webapp
+    app.run()
